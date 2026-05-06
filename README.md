@@ -24,7 +24,7 @@ Resposta em ~60s: [veja exemplo completo](examples/example-output-pt.md)
 ### Opção 1: Claude Code (one-liner)
 
 ```bash
-curl -sSL https://marfin.co/install.sh | sh -s pitch-deck-roast
+curl -sSL https://raw.githubusercontent.com/marfin-lab/skills/main/install.sh | sh -s pitch-deck-roast
 ```
 
 Esse comando clona o repo pra `~/.claude/skills/marfin-pitch-deck-roast`. O Claude Code detecta automaticamente.
