@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Pitch Deck Roast — Levva</title>
+<style>
+  /* Filled version of templates/share-card.html for the Levva example. */
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    width: 1080px; height: 1080px; overflow: hidden;
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    background: #0a0a0a; color: #f0f0f0;
+    -webkit-font-smoothing: antialiased;
+  }
+  .card {
+    width: 1080px; height: 1080px;
+    padding: 72px;
+    display: flex; flex-direction: column;
+    background:
+      radial-gradient(circle at 80% 0%, rgba(255,255,255,0.04), transparent 50%),
+      #0a0a0a;
+  }
+  .eyebrow {
+    font-family: 'Geist Mono', ui-monospace, monospace;
+    font-size: 14px; font-weight: 500;
+    text-transform: uppercase; letter-spacing: 0.16em;
+    color: #888;
+  }
+  .company {
+    margin-top: 24px;
+    font-size: 56px; font-weight: 800;
+    line-height: 1.05; letter-spacing: -0.02em;
+    color: #fafafa;
+  }
+  .meta {
+    margin-top: 16px;
+    font-size: 18px; color: #888;
+    font-family: 'Geist Mono', ui-monospace, monospace;
+  }
+  .score-block {
+    margin-top: 56px;
+    display: flex; align-items: baseline; gap: 24px;
+  }
+  .score {
+    font-size: 168px; font-weight: 800;
+    line-height: 1; letter-spacing: -0.04em;
+    color: #fafafa;
+  }
+  .score-suffix {
+    font-size: 32px; color: #888;
+    font-family: 'Geist Mono', ui-monospace, monospace;
+  }
+  .pillars {
+    margin-top: 56px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 12px 24px;
+  }
+  .pillar {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 12px 16px;
+    border: 1px solid #222; border-radius: 8px;
+    background: #131313;
+  }
+  .pillar-name {
+    font-size: 16px; color: #ccc;
+  }
+  .pillar-bar {
+    font-family: 'Geist Mono', ui-monospace, monospace;
+    font-size: 16px; letter-spacing: 0.05em;
+    color: #fafafa;
+  }
+  .footer {
+    margin-top: auto;
+    display: flex; justify-content: space-between; align-items: flex-end;
+    padding-top: 32px; border-top: 1px solid #222;
+  }
+  .footer-left {
+    font-size: 16px; color: #888;
+  }
+  .footer-brand {
+    font-size: 14px;
+    font-family: 'Geist Mono', ui-monospace, monospace;
+    text-transform: uppercase; letter-spacing: 0.14em;
+    color: #fafafa;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="eyebrow">PITCH DECK ROAST · MARFIN</div>
+  <h1 class="company">Levva</h1>
+  <div class="meta">pré-seed · 12 anjos · 2026-05-06</div>
+
+  <div class="score-block">
+    <div class="score">64</div>
+    <div class="score-suffix">/100</div>
+  </div>
+
+  <div class="pillars">
+    <div class="pillar"><span class="pillar-name">Problema</span><span class="pillar-bar">▰▰▰▰▱</span></div>
+    <div class="pillar"><span class="pillar-name">Insight</span><span class="pillar-bar">▰▰▱▱▱</span></div>
+    <div class="pillar"><span class="pillar-name">Mercado</span><span class="pillar-bar">▰▰▱▱▱</span></div>
+    <div class="pillar"><span class="pillar-name">Solução</span><span class="pillar-bar">▰▰▰▱▱</span></div>
+    <div class="pillar"><span class="pillar-name">Tração</span><span class="pillar-bar">▰▰▰▰▱</span></div>
+    <div class="pillar"><span class="pillar-name">Modelo</span><span class="pillar-bar">▰▰▰▱▱</span></div>
+    <div class="pillar"><span class="pillar-name">GTM</span><span class="pillar-bar">▰▱▱▱▱</span></div>
+    <div class="pillar"><span class="pillar-name">Time</span><span class="pillar-bar">▰▰▰▰▱</span></div>
+    <div class="pillar"><span class="pillar-name">Roadmap</span><span class="pillar-bar">▰▰▰▱▱</span></div>
+    <div class="pillar"><span class="pillar-name">Ask</span><span class="pillar-bar">▰▱▱▱▱</span></div>
+  </div>
+
+  <div class="footer">
+    <div class="footer-left">Roast gerado por Marfin Skills</div>
+    <div class="footer-brand">marfin.co/skills</div>
+  </div>
+</div>
+</body>
+</html>
